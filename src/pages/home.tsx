@@ -7,7 +7,7 @@ const Home = () => {
         <img
           src={Headshot}
           alt="headshot"
-          className="sm:max-w-[30%] rounded-full"
+          className="max-w-[60%] sm:max-w-[30%] rounded-full"
         />
         <h3 className="text-2xl text-muted-foreground ">
           Senior Software Engineer
