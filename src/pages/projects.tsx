@@ -17,8 +17,8 @@ const Projects = () => {
         {project_data.map((project) => (
           <>
             <Card key={project.projectName} className="mt-2 sm:max-w-[70%]">
-              <CardHeader className="flex-row  justify-between items-center">
-                <h3 className="font-semibold sm:text-xl">
+              <CardHeader className="flex-row justify-between items-center">
+                <h3 className="font-semibold sm:text-3xl">
                   {project.projectName}
                 </h3>
                 <Link to={project.url} target="_blank">
