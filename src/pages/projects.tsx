@@ -16,7 +16,7 @@ const Projects = () => {
       <div className="w-full flex flex-col items-center">
         {project_data.map((project) => (
           <>
-            <Card className="mt-2 sm:max-w-[70%]">
+            <Card key={project.projectName} className="mt-2 sm:max-w-[70%]">
               <CardHeader className="flex-row  justify-between items-center">
                 <h3 className="font-semibold sm:text-xl">
                   {project.projectName}
