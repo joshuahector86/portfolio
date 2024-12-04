@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo.jpg";
+import { Button } from "../ui/button";
+import { ModeToggle } from "./mode-toggle";
 
 const Topbar = () => {
   return (
@@ -9,9 +11,14 @@ const Topbar = () => {
         <h1>Dimitri Hector Portfolio</h1>
       </div>
 
-      <div>
-        <Link to={"/"}>Home</Link>
-        <Link to={"/projects"}>Projects</Link>
+      <div className="flex gap-4 items-center">
+        <ModeToggle />
+        <Link to={"/"}>
+          <Button variant={"ghost"}>Home</Button>
+        </Link>
+        <Link to={"/projects"}>
+          <Button variant={"ghost"}>Projects</Button>
+        </Link>
       </div>
     </div>
   );

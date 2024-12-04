@@ -7,11 +7,12 @@ interface PageProps {
 const Page: React.FC<PageProps> = ({ children }) => {
   return (
     <div style={{ height: "100vh", overflow: "hidden" }}>
-      <div className="hidden md:block">
-        <Topbar />
-        <div className="p-8 mb-[5rem] w-screen " style={{ overflowY: "auto" }}>
-          {children}
-        </div>
+      <Topbar />
+      <div
+        className="p-8 "
+        style={{ overflowY: "auto", height: "calc(100vh - 100px" }}
+      >
+        {children}
       </div>
     </div>
   );
