@@ -7,13 +7,13 @@ const Home = () => {
         <img
           src={Headshot}
           alt="headshot"
-          className="max-w-[60%] sm:max-w-[30%] rounded-full"
+          className="max-w-[60%] sm:max-w-[50%] md:max-w-[40%] lg:max-w-[30%] xl:max-w-[20%] rounded-full"
         />
         <h3 className="text-2xl text-muted-foreground ">
           Senior Software Engineer
         </h3>
         <h1 className="font-semibold text-5xl">Dimitri Hector</h1>
-        <p>
+        <p className="max-w-[600px]">
           Heyo! This is really just me messing around with various types of
           technologies and trying to make cool things out of it. Each sub
           heading in the navbar will lead you to a different type of project I
