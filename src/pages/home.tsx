@@ -15,10 +15,7 @@ const Home = () => {
         <h1 className="font-semibold text-5xl">Dimitri Hector</h1>
         <p className="max-w-[600px]">
           Heyo! This is really just me messing around with various types of
-          technologies and trying to make cool things out of it. Each sub
-          heading in the navbar will lead you to a different type of project I
-          have tried. Umbrella terms like web dev include a lot of various types
-          of projects that all fall under that category. Feel free to explore
+          technologies and trying to make cool things out of it. Feel free to explore
           the cacophony of tech things that held my interest for undetermined
           periods of time!
         </p>
