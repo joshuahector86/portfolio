@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <Page>
-      <div className="w-full flex flex-col items-center">
+      <div className="h-full flex flex-col items-center">
         {project_data.map((project) => (
           <>
             <Card key={project.projectName} className="mt-2 sm:max-w-[70%]">

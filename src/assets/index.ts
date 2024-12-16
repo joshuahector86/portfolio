@@ -5,6 +5,7 @@ import hectorgram from "./hectorgramlogo.png";
 import personal_site from "./personal_site.png";
 import portfolio_site_1 from "./portfolio_site_1.png";
 import portfolio_site_2 from "./portfolio_site_2.png";
+import blog_site from "./blog_site.png";
 
 export {
   chat_app,
@@ -14,4 +15,5 @@ export {
   personal_site,
   portfolio_site_1,
   portfolio_site_2,
+  blog_site,
 };

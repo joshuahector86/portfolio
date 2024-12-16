@@ -9,7 +9,7 @@ const Page: React.FC<PageProps> = ({ children }) => {
     <div style={{ height: "100vh", overflow: "hidden" }}>
       <Topbar />
       <div
-        className="p-8 "
+        className="p-8 w-full flex justify-center "
         style={{ overflowY: "auto", height: "calc(100vh - 100px" }}
       >
         {children}
