@@ -1,5 +1,5 @@
 import {
-  blog_site,
+  // blog_site,
   chat_app,
   clone_tube,
   everything_dash,
@@ -22,13 +22,13 @@ export const project_data = [
     projectCaption:
       "Chat application UI that sets up conversation support using Zustand as the global state management solution.",
   },
-  {
-    projectName: "Blog Site",
-    url: "https://pro-blog-ten.vercel.app/",
-    projectImg: blog_site,
-    projectCaption:
-      "Blog Site UI Only - made with ShadCN, React, Typescript, and TailwindCSS",
-  },
+  // {
+  //   projectName: "Blog Site",
+  //   url: "https://pro-blog-ten.vercel.app/",
+  //   projectImg: blog_site,
+  //   projectCaption:
+  //     "Blog Site UI Only - made with ShadCN, React, Typescript, and TailwindCSS",
+  // },
   {
     projectName: "CloneTube",
     url: "https://youtube-clone-phi-wine.vercel.app/",
