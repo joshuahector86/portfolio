@@ -2,12 +2,20 @@ import {
   // blog_site,
   chat_app,
   clone_tube,
+  cloneflix,
   everything_dash,
   hectorgram,
   personal_site,
 } from "@/assets";
 
 export const project_data = [
+  {
+    projectName: "CloneFlix",
+    url: "https://cloneflix-pi.vercel.app/",
+    projectImg: cloneflix,
+    projectCaption:
+      "UI only Netflix clone - made with ShadCN, NextTS, and TailwindCSS",
+  },
   {
     projectName: "Hectorgram",
     url: "https://hectorgram.vercel.app/",
