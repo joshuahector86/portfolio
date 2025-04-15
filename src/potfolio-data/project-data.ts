@@ -54,7 +54,7 @@ export const project_data = [
   },
   {
     projectName: "Personal Site",
-    url: "https://joshuahector86.github.io/prosite2024/",
+    url: "https://prosite2024.vercel.app/",
     projectImg: personal_site,
     projectCaption: "Personal website.",
   },
