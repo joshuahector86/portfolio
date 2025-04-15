@@ -54,7 +54,7 @@ export const project_data = [
   },
   {
     projectName: "Personal Site",
-    url: "https://dimitrihector.com/",
+    url: "https://joshuahector86.github.io/prosite2024/",
     projectImg: personal_site,
     projectCaption: "Personal website.",
   },
