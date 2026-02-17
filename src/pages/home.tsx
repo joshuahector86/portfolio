@@ -15,9 +15,9 @@ const Home = () => {
         <h1 className="font-semibold text-5xl">Dimitri Hector</h1>
         <p className="max-w-[600px]">
           Heyo! This is really just me messing around with various types of
-          technologies and trying to make cool things out of it. Feel free to explore
-          the cacophony of tech things that held my interest for undetermined
-          periods of time!
+          technologies and trying to make cool things out of it. Feel free to
+          explore the cacophony of tech things that held my interest for
+          undetermined periods of time!
         </p>
       </div>
     </Page>
