@@ -6,14 +6,9 @@ interface PageProps {
 
 const Page: React.FC<PageProps> = ({ children }) => {
   return (
-    <div style={{ height: "100vh", overflow: "hidden" }}>
+    <div className="max-w-7xl mx-auto">
       <Topbar />
-      <div
-        className="p-8 w-full flex justify-center "
-        style={{ overflowY: "auto", height: "calc(100vh - 100px" }}
-      >
-        {children}
-      </div>
+      <div className="p-8 w-full flex justify-center ">{children}</div>
     </div>
   );
 };

@@ -7,6 +7,7 @@ import portfolio_site_1 from "./portfolio_site_1.png";
 import portfolio_site_2 from "./portfolio_site_2.png";
 import cloneflix from "./cloneflixUI.png";
 import bugtracker from "./bug-track.png";
+import dance_website from "./dimitridancesite_img.png";
 
 export {
   chat_app,
@@ -18,4 +19,5 @@ export {
   portfolio_site_2,
   cloneflix,
   bugtracker,
+  dance_website,
 };
