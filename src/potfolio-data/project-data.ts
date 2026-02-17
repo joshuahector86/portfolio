@@ -1,4 +1,5 @@
 import {
+  dance_website,
   bugtracker,
   chat_app,
   clone_tube,
@@ -9,6 +10,13 @@ import {
 } from "@/assets";
 
 export const project_data = [
+  {
+    projectName: "Dance Website",
+    url: "https://www.dimitrihectordance.com/",
+    projectImg: dance_website,
+    projectCaption:
+      "Dance website buit with Tailwindcss, React Typescript, and Vite.",
+  },
   {
     projectName: "Bug Tracker",
     url: "https://bug-track-rouge.vercel.app/",
