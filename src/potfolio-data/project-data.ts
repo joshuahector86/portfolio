@@ -5,8 +5,8 @@ import {
   clone_tube,
   cloneflix,
   everything_dash,
-  hectorgram,
   personal_site,
+  gerald_hector_website,
 } from "@/assets";
 
 export const project_data = [
@@ -16,6 +16,13 @@ export const project_data = [
     projectImg: dance_website,
     projectCaption:
       "Dance website buit with Tailwindcss, React Typescript, and Vite.",
+  },
+  {
+    projectName: "Gerald Hector Client Website",
+    url: "https://www.geraldhector.com/",
+    projectImg: gerald_hector_website,
+    projectCaption:
+      "Client website built with Tailwindcss, React Typescript, and Vite.",
   },
   {
     projectName: "Bug Tracker",
@@ -31,13 +38,13 @@ export const project_data = [
     projectCaption:
       "UI only Netflix clone - made with ShadCN, NextTS, and TailwindCSS",
   },
-  {
-    projectName: "Hectorgram",
-    url: "https://hectorgram.vercel.app/",
-    projectImg: hectorgram,
-    projectCaption:
-      "Full Stack instagram clone that uses Appwrite backend as a service.",
-  },
+  // {
+  //   projectName: "Hectorgram",
+  //   url: "https://hectorgram.vercel.app/",
+  //   projectImg: hectorgram,
+  //   projectCaption:
+  //     "Full Stack instagram clone that uses Appwrite backend as a service.",
+  // },
   {
     projectName: "Chat App",
     url: "https://chatapp-theta-rouge.vercel.app/",

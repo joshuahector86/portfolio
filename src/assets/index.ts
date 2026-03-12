@@ -8,6 +8,7 @@ import portfolio_site_2 from "./portfolio_site_2.png";
 import cloneflix from "./cloneflixUI.png";
 import bugtracker from "./bug-track.png";
 import dance_website from "./dimitridancesite_img.png";
+import gerald_hector_website from "./geraldhector.com.png";
 
 export {
   chat_app,
@@ -20,4 +21,5 @@ export {
   cloneflix,
   bugtracker,
   dance_website,
+  gerald_hector_website,
 };
