@@ -16,11 +16,20 @@ const Home = () => {
           </h3>
           <div className="w-full border-2 border-blue-400" />
           <p className="max-w-[600px] text-3xl  mt-5">
-            Heyo! This is really just me messing around with various types of
-            technologies and trying to make cool things out of it. Feel free to
-            explore the cacophony of tech things that held my interest for
-            undetermined periods of time!
+            Welcome. This portfolio showcases projects and experiments across a
+            range of technologies that have captured my interest over time.
+            Please feel free to explore the work and ideas that reflect my
+            ongoing curiosity and growth.
           </p>
+          <button className="mt-4 border-2 border-blue-400 px-4 py-2 rounded-md text-lg font-medium hover:bg-blue-400 hover:text-white transition-colors">
+            <a
+              href="https://snytax-nsteps.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SyntaxNSteps Company Site
+            </a>
+          </button>
         </div>
       </div>
     </Page>

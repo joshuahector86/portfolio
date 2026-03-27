@@ -7,9 +7,16 @@ import {
   everything_dash,
   personal_site,
   gerald_hector_website,
+  syntaxnsteps,
 } from "@/assets";
 
 export const project_data = [
+  {
+    projectName: "SyntaxNSteps",
+    url: "https://snytax-nsteps.vercel.app/",
+    projectImg: syntaxnsteps,
+    projectCaption: "SyntaxNSteps Company Site.",
+  },
   {
     projectName: "Dance Website",
     url: "https://www.dimitrihectordance.com/",
@@ -18,7 +25,7 @@ export const project_data = [
       "Dance website buit with Tailwindcss, React Typescript, and Vite.",
   },
   {
-    projectName: "Gerald Hector Client Website",
+    projectName: "Gerald Hector Site",
     url: "https://www.geraldhector.com/",
     projectImg: gerald_hector_website,
     projectCaption:
@@ -38,13 +45,7 @@ export const project_data = [
     projectCaption:
       "UI only Netflix clone - made with ShadCN, NextTS, and TailwindCSS",
   },
-  // {
-  //   projectName: "Hectorgram",
-  //   url: "https://hectorgram.vercel.app/",
-  //   projectImg: hectorgram,
-  //   projectCaption:
-  //     "Full Stack instagram clone that uses Appwrite backend as a service.",
-  // },
+
   {
     projectName: "Chat App",
     url: "https://chatapp-theta-rouge.vercel.app/",
@@ -68,7 +69,7 @@ export const project_data = [
       "UI Only dashboard deskstop site done with ShadCN, Tailwind, and React Typescript.",
   },
   {
-    projectName: "Personal Site",
+    projectName: "Personal Site (Old)",
     url: "https://prosite2024.vercel.app/",
     projectImg: personal_site,
     projectCaption: "Personal website.",
