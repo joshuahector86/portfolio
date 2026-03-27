@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../assets/logo.jpg";
-import { ModeToggle } from "./mode-toggle";
+// import { ModeToggle } from "./mode-toggle";
 
 const Topbar = () => {
   const location = useLocation();
@@ -41,7 +41,7 @@ const Topbar = () => {
           </Link>
         ))}
 
-        <ModeToggle />
+        {/* <ModeToggle /> */}
       </div>
     </div>
   );
