@@ -21,15 +21,15 @@ const Home = () => {
             Please feel free to explore the work and ideas that reflect my
             ongoing curiosity and growth.
           </p>
-          <button className="mt-4 border-2 border-blue-400 px-4 py-2 rounded-md text-lg font-medium hover:bg-blue-400 hover:text-white transition-colors">
-            <a
-              href="https://snytax-nsteps.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+          <a
+            href="https://www.syntaxnsteps.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="mt-4 border-2 border-blue-400 px-4 py-2 rounded-md text-lg font-medium hover:bg-blue-400 hover:text-white transition-colors">
               SyntaxNSteps Company Site
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </Page>

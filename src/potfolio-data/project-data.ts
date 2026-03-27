@@ -13,7 +13,7 @@ import {
 export const project_data = [
   {
     projectName: "SyntaxNSteps",
-    url: "https://snytax-nsteps.vercel.app/",
+    url: "https://www.syntaxnsteps.com/",
     projectImg: syntaxnsteps,
     projectCaption: "SyntaxNSteps Company Site.",
   },
