@@ -10,6 +10,7 @@ import bugtracker from "./bug-track.png";
 import dance_website from "./dimitridancesite_img.png";
 import gerald_hector_website from "./geraldhector.com.png";
 import syntaxnsteps from "./syntaxNsteps.png";
+import workout_app from "./workoutApp.png";
 
 export {
   chat_app,
@@ -24,4 +25,5 @@ export {
   dance_website,
   gerald_hector_website,
   syntaxnsteps,
+  workout_app,
 };

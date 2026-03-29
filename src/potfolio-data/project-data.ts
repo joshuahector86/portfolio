@@ -8,6 +8,7 @@ import {
   personal_site,
   gerald_hector_website,
   syntaxnsteps,
+  workout_app,
 } from "@/assets";
 
 export const project_data = [
@@ -30,6 +31,12 @@ export const project_data = [
     projectImg: gerald_hector_website,
     projectCaption:
       "Client website built with Tailwindcss, React Typescript, and Vite.",
+  },
+  {
+    projectName: "Workout!",
+    url: "https://workout-application-typescript.vercel.app/",
+    projectImg: workout_app,
+    projectCaption: "Workout application.",
   },
   {
     projectName: "Bug Tracker",
