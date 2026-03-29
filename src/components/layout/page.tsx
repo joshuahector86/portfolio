@@ -8,7 +8,7 @@ const Page: React.FC<PageProps> = ({ children }) => {
   return (
     <div className="max-w-7xl mx-auto h-full">
       <Topbar />
-      <div className="p-8 w-full flex justify-center h-full">{children}</div>
+      <div className="px-4 pb-4 w-full flex justify-center">{children}</div>
     </div>
   );
 };
