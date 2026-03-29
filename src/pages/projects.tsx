@@ -82,22 +82,28 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="flex items-center justify-center gap-2">
+        <div className="flex items-center justify-center gap-2 p-2 mt-5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md">
           <Button
-            variant="secondary"
+            variant="ghost"
+            className="h-9 px-4 border border-white/15 bg-white/5 text-slate-200 hover:text-white hover:bg-white/10"
             disabled={currentPage === 1}
             onClick={() => goToPage(currentPage - 1)}
           >
             Previous
           </Button>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1.5">
             {Array.from({ length: totalPages }).map((_, index) => {
               const pageNumber = index + 1;
               const isActive = pageNumber === currentPage;
               return (
                 <Button
                   key={pageNumber}
-                  variant={isActive ? "default" : "secondary"}
+                  variant="ghost"
+                  className={
+                    isActive
+                      ? "h-9 min-w-9 px-3 bg-gradient-to-r from-blue-400 to-violet-500 text-white shadow-[0_0_16px_rgba(96,165,250,0.35)]"
+                      : "h-9 min-w-9 px-3 border border-white/15 bg-white/5 text-slate-200 hover:text-white hover:bg-white/10"
+                  }
                   onClick={() => goToPage(pageNumber)}
                   disabled={isActive}
                 >
@@ -107,7 +113,8 @@ const Projects = () => {
             })}
           </div>
           <Button
-            variant="secondary"
+            variant="ghost"
+            className="h-9 px-4 border border-white/15 bg-white/5 text-slate-200 hover:text-white hover:bg-white/10"
             disabled={currentPage === totalPages}
             onClick={() => goToPage(currentPage + 1)}
           >
